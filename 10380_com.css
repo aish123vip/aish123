@@ -1,0 +1,90 @@
+
+a {
+	text-decoration: none
+}
+.wrapper {
+	background: #01a982;
+	background: linear-gradient(to bottom right,#01a982 0,#60ae80 100%);
+	overflow: hidden;
+}
+.main {
+	z-index: 999;
+	position: relative
+}
+.main h1 {
+	font-size: 40px;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 10px;
+	text-transform: uppercase
+}
+.content {
+	margin: 0 auto;
+	width: 520px;
+	background: #fff;
+	border-radius: 10px;
+}
+/* 为手机设备添加样式 */
+@media (max-width: 768px) {
+.content {
+    width: 90%;
+  }
+}
+p.footer {
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	font-weight: 500;
+	margin-top: 10px;
+}
+.content-top h2 {
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	background: #02a982;
+	padding: 10px 10px;
+	margin-top: 5px;
+	border-radius: 5px
+}
+.content-top p {
+	text-align: center;
+	font-size: 24px;
+	color: blue;
+	margin-top: 15px
+}
+.content-top ul{
+	padding: 0.0em;
+}
+.content-top ul li {
+	display: block;
+	font-size: 20px;
+	color: black;
+	padding: 0.5em;
+	border-bottom: 1px solid #e2e0de
+}
+.content-top ul li span{
+	font-size: 16px;
+}
+.content-top ul li a {
+	font-size: 20px;
+	color: #000;
+	font-weight: 700
+}
+
+.content-top ul li a i {
+	line-height: 2.6em;
+	background: #eee;
+	color: green;
+	font-style: normal;
+	display: block;
+	margin: 5px 5px
+}
+
+.content-top ul li span {
+	display: block;
+	color: #999
+}
+
+.content-top {
+	padding: 1.5em
+}
